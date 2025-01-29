@@ -1,0 +1,354 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #19191B;
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.item_menu a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+}
+.item_menu a:hover{
+    color: rgb(194, 112, 194);
+}
+.firstbox{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content:space-around ;
+
+}
+.bigtext{
+    font-size: 52px;
+    width: 50%;
+}
+.ourservices button{
+    border-radius: 5px;
+    background-color: rgb(170, 80, 255);
+    color: aliceblue;
+    width: 204px;
+    height: 58px;
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 23px;
+}
+.ourservices{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width:40% ;
+    font-weight: bolder;
+    margin: 20px;
+}
+.discribtion{
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    color:aliceblue
+}
+.contactbutton button{
+    background-color: rgba(152, 251, 152, 0.008);
+    border: 1px solid;
+    border-radius: 15px;
+    width: 157px;
+    height: 44px;
+    color: white;
+    font-size: 15px;
+}
+.secoundbox{
+     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.textsecound{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    align-items: center;
+
+}
+.biglable{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+.smalllable{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.702) ;
+}
+.videobox{
+    margin: 8px;
+}
+.servicelist{
+    max-width: 1400px;
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    flex-wrap: wrap;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.serviceitem{
+    width: 320px;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.thirdbox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.servicetext{
+    margin-top: 50px;
+    font-size: 55px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+.serviceitem p{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.728);
+}
+.finalbox1{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+
+}
+.finalbox1 h1{
+    color: white;
+    font-size: 55px;
+}
+.picturediv1 {
+    margin-bottom: 50px;
+    
+}
+.picturediv2{
+    margin-top: 58px;
+    margin-bottom: 50px;
+}
+.picturediv3{
+    margin-top: 116px;
+    margin-bottom: 50px;
+}
+.picturelist{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    gap: 70px;
+    
+}
+.picturelist div{
+    background-color: #1E1E20;
+    padding: 15px;
+    border-radius: 15px;
+}
+.finalbox2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    gap: 30px;
+
+}
+.finalp2{
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.finalbutton2{
+    width: 150px;
+    height: 60px;
+    font-size: 25px;
+    color: white;
+    background-color: #5454D4;
+    border-radius: 5px;
+
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: #ffffffc0;
+}
+.footerbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+
+}
+.videobutton{
+    display: none;
+}
+@media screen and (max-width : 430px) {
+    header{
+        flex-direction: column;
+    
+    }
+    nav{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .contactbutton button{
+        width: 100px;
+
+    }
+    .contactbutton {
+        margin-top: 15px;
+
+    }
+    .firstbox{
+        flex-direction: column;
+    }
+    .youngman img{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .ourservices{
+        width: 80%;
+        margin: 5px;
+    }
+    .bigtext{
+        font-size: 44px;
+        width: 70%;
+    }
+    .discribtion{
+        font-size: 28px;
+        font-weight: 500;
+    }
+    .textsecound{
+        flex-direction: column;
+        gap:20px;
+        width: 80%;
+    }
+    .biglable{
+        margin: 5px;
+
+    }
+    .smalllable{
+    margin: 2px;
+
+    }
+    .videobox{
+        display: none;
+
+    }
+    .videobutton{
+        display: block;
+        width: 157px;
+        border-radius: 9px;
+        font-size: 22px;
+        text-decoration: none;
+        background-color: rgb(170, 80, 255);
+        color: aliceblue;
+        padding: 6px;
+    }
+    .secoundbox a{
+        text-decoration: none;
+    }
+    .servicelist{
+        flex-direction: column;
+        margin: 0;
+        gap: 5px;
+    }
+    .servicetext{
+        font-size: 35px;
+    }
+    .biglable{
+        font-size: 35px;
+    }
+    .finalbox1 h1{
+        font-size: 35px;
+    }
+    .picturelist{
+        flex-direction: column;
+        gap: 5px;
+    }
+    .finalbox2{
+        flex-direction: column;
+        padding: 10px ;
+
+    }
+    .finalp2{
+        font-size: 35px;
+
+    }
+    .footerbox{
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+        gap: 1px;
+        
+    }
+    .picturediv2{
+        margin:5px ;
+        
+    }
+    .picturediv1{
+        margin: 5px;
+    }
+    .picturediv3{
+        margin: 5px;
+    }
+    .finalp2{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .finalbox1{
+        margin-bottom: 30px;
+    }
+    .footerbox{
+        gap: 3px;
+
+    }
+
+
+    
+}
